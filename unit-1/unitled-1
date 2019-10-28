@@ -1,0 +1,9 @@
+ > git init
+
+ > git status
+
+ > git add .
+
+ > git commit -m "Add unit 1 and unit 2 folders"
+
+ >git push -u origin master
