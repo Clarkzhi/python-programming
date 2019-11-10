@@ -1,3 +1,4 @@
+'''
 #while loop is executed only when a condition is met 
 
 import random #random number module
@@ -25,7 +26,7 @@ while guess != corrent_answer:
 
 print('you are correct!!')
 
-
+'''
 #how do you break a loop?
 
 name = ['jack', 'jill', 'mary', 'jane', 'kate']
