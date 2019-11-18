@@ -1,4 +1,4 @@
-
+'''
 # problem 1 :Write a function called reverse_list that accepts a list, and returns a copy of the list with the items in reverse order.
 
 def reverse_list(my_list):
@@ -32,3 +32,55 @@ def pivot_split(number_list):
         else:
             result = list_1
     return result
+
+
+
+#calling revers_string
+print(reverse_list9[1,2,3,4,5])
+
+new_list = reverse_List(['a', 'b', 'c', 'd', 'e'])
+
+print(new_list)
+
+classmates = ['emma', 'chizea', 'daniela']
+
+print(reverse_list(classmates))
+'''
+
+#2
+
+def encode_string(string):
+    letters =  ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
+
+    result = ''
+    for character in string:
+        for idx in range(len(letters)):
+            if character == letters[idx]:
+                result += str(idx + 1)
+        
+    return result
+
+#3
+
+def pivot_split(my_list, my_num):
+    left = []
+    right = []
+    for num in my_list:
+        if num < my_num:
+            left.append(num)
+        else:
+            right.append(num)
+    
+    return [left, right]
+
+#4
+def is_isogram(string):
+    answer = ''
+    already_seen = []
+    for character in string:
+        if character in already_seen:
+            return False
+        else:
+            already_seen.append(character)
+        
+        return True
