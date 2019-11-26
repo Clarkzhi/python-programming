@@ -8,7 +8,7 @@ print(type(person))
 #keys and all strings enclosed in double quotations
 #enclosed with curly braces, square brackets can be used
 with open('cohort_4.json', 'r') as cohort_files:
-    cohort = json.load(cohort_files)  #converts json file to python dictionary
+    cohort = json.load(cohort_files)  #converts json file to python dictionary/list
 
 print(type(cohort))
 print(json.dumps(cohort, indent=2))
