@@ -27,9 +27,7 @@ with open('NBA.json', 'r') as NBA_file:
 print(type(NBA))
 print(NBA.keys())
 
-[{a:1, b:2}{ad:2, c:4}]
-if ad > a 
-return win
+
 
 
 
